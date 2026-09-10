@@ -4,6 +4,8 @@ An interactive, animated walkthrough of the Kubernetes architecture and the comp
 
 🔗 **[View Live Demo](https://elixirman.github.io/K8-production-process/)**
 
+![Kubernetes Architecture](k8.png)
+
 ## ✨ Features
 
 - **11 Interactive Stages:** From the initial Git commit to Day-2 operations and observability.
