@@ -4,7 +4,7 @@ An interactive, animated walkthrough of the Kubernetes architecture and the comp
 
 🔗 **[View Live Demo](https://elixirman.github.io/K8-production-process/)**
 
-![Kubernetes Architecture](k8.png)
+![Kubernetes Architecture](K8.png)
 
 ## ✨ Features
 
