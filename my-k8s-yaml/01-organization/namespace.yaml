@@ -1,0 +1,8 @@
+# Everything else in this project lives inside this Namespace.
+# Apply this FIRST — every other manifest references it.
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: my-app
+  labels:
+    environment: production

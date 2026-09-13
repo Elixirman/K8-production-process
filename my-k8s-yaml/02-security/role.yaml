@@ -1,0 +1,11 @@
+# A minimal Role — read-only access to ConfigMaps in this namespace.
+# Included so role-binding.yaml has something real to bind to.
+apiVersion: rbac.authorization.k8s.io/v1
+kind: Role
+metadata:
+  name: my-app-role
+  namespace: my-app
+rules:
+  - apiGroups: [""]
+    resources: ["configmaps"]
+    verbs: ["get", "list", "watch"]

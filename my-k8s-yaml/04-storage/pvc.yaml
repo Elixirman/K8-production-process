@@ -1,0 +1,15 @@
+# Requests 5GB of durable storage; the Deployment mounts this by name.
+# storageClassName will vary by cluster/provider — "standard" is a common
+# default on GKE; check `kubectl get storageclass` on your own cluster.
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: my-app-pvc
+  namespace: my-app
+spec:
+  accessModes:
+    - ReadWriteOnce
+  storageClassName: standard
+  resources:
+    requests:
+      storage: 5Gi

@@ -1,0 +1,14 @@
+# Grants my-app-sa the permissions defined in my-app-role.
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: my-app-rolebinding
+  namespace: my-app
+subjects:
+  - kind: ServiceAccount
+    name: my-app-sa
+    namespace: my-app
+roleRef:
+  kind: Role
+  name: my-app-role
+  apiGroup: rbac.authorization.k8s.io
