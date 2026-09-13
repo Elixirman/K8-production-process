@@ -61,3 +61,4 @@ This project is automatically deployed and hosted for free using GitHub Pages. A
 ## 📄 License
 
 This project is open-source and available for educational purposes.
+[![Kubernetes-simple-view](K8-big-pix.png)
